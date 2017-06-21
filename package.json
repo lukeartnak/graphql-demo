@@ -1,0 +1,14 @@
+{
+  "name": "graphql-demo",
+  "author": "Luke Artnak",
+  "version": "1.0.0",
+  "description": "graphql demo for an architecture meeting",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.3"
+  }
+}
