@@ -39,13 +39,13 @@ You will notice that GraphiQL has seen the change and refreshed its schema, so
 now we can access users from a graphql query. In GraphiQL run the query below.
 ```
 {
-	allUsers(first: 3) {
-	  nodes {
+  allUsers(first: 3) {
+    nodes {
       id,
       username
     }
-	}
+  }
 }
 ```
 
-We have created our first functioning graphql query!
+We have created our first functioning graphql query
